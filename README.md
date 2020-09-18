@@ -18,26 +18,28 @@
  \____|\__,_|_| |_| |_|\___|
                             
 ```
-Timeline
 
-    Starts: 9:00am, now!
-    Ends: Midnight!
+# PRESENTATION OF THE LANGUAGE:
 
-Challenge
+Have ever heared about a game called MasterMind ? well, even if you didn't we will give you an idea on how to play it, because today we had a challenge that consists of creation that game using the language of our choice.
+For this task we choose the javascript as a tool to develop the MasterMind game. JavaScript is a scripting or programming language that allows you to implement complex features on web pages every time a web page does more than just sit there and display static information for you to look at displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. Since the JS works well with html and css we started with creating the design of the game using those 2 languages but we ended up with duping that design because we needed more time implement the JS code with the html and css code.
 
-Today, you will implement the game Mastermind.
+# USAGE:
 
-Easy? Sure, but did you already developed it in SQL? or Cobol?
+Since the JS works well with html and css we started with creating the design of the game using those 2 languages but we ended with dumping that design because we needed more time to implement the JS code with the html and css code. So we used the prompt command as graphic interface for the design. The pc will have a secret code composed of 4 colors from 6 possible colors (red, green, yellow, blue, purple, orange) and you have to try to guess that combination of 4 colors without exceeding 10 tries. For each right color in the correct position the pc will give you "black: 1" and for each right color in a wrong position the pc will print "white: 1".
 
-Also, for each version of the Mastermind, you will have to write an “How to write a Mastermind in XXX?” blog post.
+![alt text](https://postimg.cc/JGnfWhRC?fbclid=IwAR1QcG6LdjI97AoCknhmwUvyZfydHO1MEBv_S4nbrDFiaYawiFgVUbH8nN0)
 
-All these “How to” must be hosted in a Github page or in a Blog platform (WordPress, Jekyll, Drupal, etc.) that you will administrated per campus.
-Requirements
+# CODE EXPLAINED:
 
-    By group of 5~ students (you can regroup based on attendance) - but your evaluation will be as campus!
-    Each language can only be used once per campus - advice: take 10-20min at the beginning of the day to dispatch languages.
-    Each group must develop at least one Mastermind version - feel free to develop as more as you can - but don’t forget to help your peers!
-    You are free of the number of columns, colors and turns.
-    Each game can be one player (against a bot) or 2 players
-    Only languages bellow are allowed for implementing the Mastermind
-    Make it fun!
+Now let's jump to how the code works. We have 3 functions in total. The first function counts how many right color in the right position represented by "black: x". The second function counts how many right colors in wrong position represented by "white: x". The third and last function do most of the things from taking the input of the user and parsing it (input colors and their positions) to the verification of the colors and their positions by comparing them to the random secret code of the pc.
+
+![alt text](https://postimg.cc/bdzX3TMJ?fbclid=IwAR31NEEGTQM_vZ6bzJ4kxzr3g8QNhp9oy9plvnKPA2LPYXRHluxPCuR_RU0)
+
+# TEAM MEMBERS:
+
+Issam Sebri
+Iheb Chatti
+Foued Dadi
+Mouez ben Rebah
+Cirine Sassi
