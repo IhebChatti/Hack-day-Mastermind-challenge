@@ -28,13 +28,13 @@ For this task we choose the javascript as a tool to develop the MasterMind game.
 
 Since the JS works well with html and css we started with creating the design of the game using those 2 languages but we ended with dumping that design because we needed more time to implement the JS code with the html and css code. So we used the prompt command as graphic interface for the design. The pc will have a secret code composed of 4 colors from 6 possible colors (red, green, yellow, blue, purple, orange) and you have to try to guess that combination of 4 colors without exceeding 10 tries. For each right color in the correct position the pc will give you "black: 1" and for each right color in a wrong position the pc will print "white: 1".
 
-![alt text](https://postimg.cc/JGnfWhRC?fbclid=IwAR1QcG6LdjI97AoCknhmwUvyZfydHO1MEBv_S4nbrDFiaYawiFgVUbH8nN0)
+<img src="https://postimg.cc/JGnfWhRC?fbclid=IwAR1QcG6LdjI97AoCknhmwUvyZfydHO1MEBv_S4nbrDFiaYawiFgVUbH8nN0">
 
 # CODE EXPLAINED:
 
 Now let's jump to how the code works. We have 3 functions in total. The first function counts how many right color in the right position represented by "black: x". The second function counts how many right colors in wrong position represented by "white: x". The third and last function do most of the things from taking the input of the user and parsing it (input colors and their positions) to the verification of the colors and their positions by comparing them to the random secret code of the pc.
 
-![alt text](https://postimg.cc/bdzX3TMJ?fbclid=IwAR31NEEGTQM_vZ6bzJ4kxzr3g8QNhp9oy9plvnKPA2LPYXRHluxPCuR_RU0)
+<img src="https://postimg.cc/bdzX3TMJ?fbclid=IwAR31NEEGTQM_vZ6bzJ4kxzr3g8QNhp9oy9plvnKPA2LPYXRHluxPCuR_RU0">
 
 # TEAM MEMBERS:
 
