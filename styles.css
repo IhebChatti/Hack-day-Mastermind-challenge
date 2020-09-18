@@ -1,0 +1,107 @@
+#dropZone{
+    display: flex;
+    position: relative;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#dropZo{
+    margin-top: 4px;
+    margin-bottom: 2px;
+    display: flex;
+    position: relative;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+#dropz1 {
+    margin-bottom: 24.5px;
+    margin-left: 120px;
+}
+#drop {
+    display: flex;
+    position: relative;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#dropzones {
+    border-radius: 25px;
+    margin-top: 180px;
+    width: 300px;
+    margin-right: 250px;
+    margin-left: 49rem;
+    left: 49rem;
+    padding: 10px;
+    border: 1px solid white;
+}
+#dropzoness{
+    margin-top: 190px;
+    width: 50px;
+    margin-left: 630px;
+    position: absolute;
+}
+#colors {
+  height: 20px;
+  display: flex;
+  position: relative;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 350px;
+  margin-right: 250px;
+  margin-bottom: 0px;
+  left: 47.5rem;
+  top: 50px;
+}
+#dropBox1,
+#dropBox2,
+#dropBox3,
+#dropBox4 {
+    border-radius: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 0.8rem;
+  width: 0.8rem;
+  border: 1px solid #aaaaaa;
+  padding: 1rem;
+}
+#dropBoxx1,
+#dropBoxx2{
+  border-radius: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 0.1px;
+  width: 0.1px;
+  border: 1px solid #aaaaaa;
+  padding: 0.5rem;
+}
+img {
+    border-radius: 50%;
+  height: 50px;
+  object-fit: cover;
+  width: 50px;
+  margin-bottom: 0px;
+  bottom: 0;
+  left: 0;
+}
+#footer {
+    margin-bottom: 5px;
+}
+#holberton {
+    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+    width: 100px;
+    position: absolute;
+    margin-bottom: 850px;
+    margin-left: 10px;
+}
+h1 {
+    color: white;
+    margin-left: 850px;
+    position: absolute;
+    margin-top: 20px;
+
+}
